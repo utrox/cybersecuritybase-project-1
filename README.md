@@ -12,11 +12,12 @@ ___
 1. Pull the repo to local
 2. Make a virtual environment using `python -m venv .venv`
 3. Activate the virtual environment `.\.venv\Scripts\activate`
-4. Run `python manage.py makemigrations` and `python manage.py migrate`
-5. Create user(s) with `python manage.py createsuperuser` and follow instructions
-6. Run `python manage.py runserver` to run the server
-7. Log in with your user on `loalhost:8000/admin/`
-8. Now you're ready to follow the instructions below to test each vulnerability if you choose to do so.
+4. Install packages from requirements.txt: `pip install -r .\requirements.txt`
+5. Run `python manage.py makemigrations` and `python manage.py migrate`
+6. Create user(s) with `python manage.py createsuperuser` and follow instructions
+7. Run `python manage.py runserver` to run the server
+8. Log in with your user on `loalhost:8000/admin/`
+9. Now you're ready to follow the instructions below to test each vulnerability if you choose to do so.
 
 ___
 
