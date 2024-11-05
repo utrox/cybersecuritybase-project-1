@@ -1,9 +1,11 @@
 # Cyber security base - Project 1
 This project was made for the [Cybersecurity Project I](https://cybersecuritybase.mooc.fi/module-3.1) mooc.fi course. 
 
-It's a basic web application containing 5 security flaws, and comments about how to fix these flaws. 
+It's a basic web application containing 5 security flaws from the [OWASP Top10 2017 list](https://owasp.org/www-project-top-ten/2017/Top_10) and comments about how to fix these flaws. 
 
 Do not reuse code from this project, as it has multiple extremely dangerous security vulnerabilities.
+
+___
 
 ### LINK: [link to the repository](https://github.com/utrox/cybersecuritybase-project-1)
 ### INSTALLATION:
