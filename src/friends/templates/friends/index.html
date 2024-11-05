@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Finder</title>
+</head>
+<body>
+    <h1>Friend finder!</h1>
+    <h2>List of your friends:</h2>
+    <ul>
+        {% for friend in friends %}
+            <li>{{ friend }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/add/">Add new friend...</a>
+</body>
+</html>
